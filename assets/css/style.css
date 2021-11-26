@@ -239,3 +239,24 @@ a.button-blue:hover {
   color: #FFF;
   box-shadow: inset 0 0 0 3px #FFF;
 }
+
+/* Nuove uscite */
+
+#newgames {
+  background-color: #1F1F1F; 
+  color: #FFF;
+}
+
+#newgames h1, #newgames h2 {
+  margin-bottom: 30px;
+}
+
+#newgames img {
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+#newgames a {
+  color: #FFF;
+  text-decoration: none;
+}
