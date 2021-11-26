@@ -136,3 +136,16 @@ font-size: 1.5rem;
   color: #FFF;
   box-shadow: inset 0 0 0 3px #FFF;
 }
+
+#thumbnails a img {
+  padding: 2px;
+  box-shadow: inset 0 0 0 2px #FFF;
+  border: 3px solid #4e6d86;
+  border-radius: 30px;
+  transition: margin-top 0.5s;
+  margin-top: 0;
+}
+
+#thumbnails a:hover img {
+  margin-top: -15px;
+}
