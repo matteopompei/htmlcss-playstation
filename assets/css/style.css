@@ -167,9 +167,11 @@ main h5 {
 }
 
 a.button-blue {
+  display: block;
+  width: fit-content;
   background-color: #2D64E6;
   border-radius: 50px;
-  padding: 6px 15px;
+  padding: 10px 15px;
   color: #FFF !important;
   text-decoration: none;
   border: 2px solid #2D64E6;
@@ -179,3 +181,41 @@ a.button-blue:hover {
   color: #FFF;
   box-shadow: inset 0 0 0 3px #FFF;
 }
+
+.accessori .col {
+  padding: 20px 0;
+}
+
+.accessori a {
+  color: #000;
+  text-decoration: none;
+}
+
+.accessori a span {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.accessori a:hover span, .accessori a:hover img {
+  opacity: 1;
+}
+
+.accessori img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.accessori .active {
+  border-bottom: 2px solid #0072CE;
+}
+
+.accessori .active a span, .accessori .active img {
+  opacity: 1;
+}
+/* 
+.accessori .col {
+  background-color: red;
+} */
