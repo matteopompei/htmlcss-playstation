@@ -115,9 +115,9 @@ font-size: 1.5rem;
   font-size: 1.5rem;
 }
 
-/* Jumbo */
+/* Header */
 #jumbo {
-  padding-top: 200px;
+  padding-top: 250px;
   background: url(../img/jumbo-bg.png) center;
   background-size: cover;
   color: #FFF;
@@ -182,6 +182,8 @@ a.button-blue:hover {
   box-shadow: inset 0 0 0 3px #FFF;
 }
 
+/* Accessori */
+
 .accessori .col {
   padding: 20px 0;
 }
@@ -215,7 +217,25 @@ a.button-blue:hover {
 .accessori .active a span, .accessori .active img {
   opacity: 1;
 }
-/* 
-.accessori .col {
-  background-color: red;
-} */
+
+/* It takes two */
+
+#it-takes-two {
+  background: url(../img/it-takes-two-hero-banner-desktop.jpg) center;
+  background-size: cover;
+  color: #FFF;
+}
+
+#it-takes-two a {
+  background-color: #CD3D0F;
+  border-radius: 50px;
+  padding: 6px 15px;
+  color: #FFF !important;
+  text-decoration: none;
+  border: 2px solid #CD3D0F;
+}
+
+#it-takes-two a:hover {
+  color: #FFF;
+  box-shadow: inset 0 0 0 3px #FFF;
+}
