@@ -124,6 +124,8 @@ font-size: 1.5rem;
 }
 
 #jumbo a {
+  display: block;
+  width: fit-content;
   background-color: #CD3D0F;
   border-radius: 50px;
   padding: 6px 15px;
@@ -227,6 +229,8 @@ a.button-blue:hover {
 }
 
 #it-takes-two a {
+  display: block;
+  width: fit-content;
   background-color: #CD3D0F;
   border-radius: 50px;
   padding: 6px 15px;
@@ -277,5 +281,26 @@ a.button-blue:hover {
 }
 
 #psplus a:hover {
-  box-shadow: 0 0 0 3px #e7e8e9;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.6);
+}
+
+/* PS Now */
+#psnow {
+  background-color: #161C3B;
+  color: #FFF;
+}
+
+#psnow a {
+  display: block;
+  width: fit-content;
+  background-color: #F4F4F4;
+  border-radius: 50px;
+  padding: 6px 15px;
+  color: #000 !important;
+  text-decoration: none;
+  border: 2px solid #F4F4F4;
+}
+
+#psnow a:hover {
+  box-shadow: inset 0 0 0 3px #161C3B;
 }
