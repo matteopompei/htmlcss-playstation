@@ -13,7 +13,6 @@ body {
 
 /* Navbar */
 .navbar {
-  position: relative;
   background-color: #FFF;
 }
 
@@ -46,8 +45,8 @@ body {
 }
 
 .navbar .dropdown-menu {
+  position: static;
   padding: 15px 0;
-  position: absolute;
   border: 0;
   top: 74px;
   width: 100%;
@@ -116,3 +115,24 @@ font-size: 1.5rem;
   font-size: 1.5rem;
 }
 
+/* Jumbo */
+#jumbo {
+  padding-top: 200px;
+  background: url(../img/jumbo-bg.png) center;
+  background-size: cover;
+  color: #FFF;
+}
+
+#jumbo a {
+  background-color: #CD3D0F;
+  border-radius: 50px;
+  padding: 6px 15px;
+  color: #FFF !important;
+  text-decoration: none;
+  border: 2px solid #CD3D0F;
+}
+
+#jumbo a:hover {
+  color: #FFF;
+  box-shadow: inset 0 0 0 3px #FFF;
+}
