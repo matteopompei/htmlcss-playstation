@@ -260,3 +260,22 @@ a.button-blue:hover {
   color: #FFF;
   text-decoration: none;
 }
+
+/* PS Plus */
+#psplus {
+  background-color: #BEBCBB;
+}
+
+#psplus a {
+  display: block;
+  width: fit-content;
+  background-color: #D9DADC;
+  border-radius: 50px;
+  padding: 10px 15px;
+  color: #3167E5 !important;
+  text-decoration: none;
+}
+
+#psplus a:hover {
+  box-shadow: 0 0 0 3px #e7e8e9;
+}
