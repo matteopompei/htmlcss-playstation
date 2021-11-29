@@ -45,13 +45,11 @@
 }
 
 .navbar .dropdown-menu {
-  position: static;
   padding: 15px 0;
   border: 0;
   top: 74px;
   width: 100%;
   border-radius: 0;
-  text-align: center;
 }
 
 .navbar .dropdown-menu li {
@@ -99,11 +97,10 @@ font-size: 1.5rem;
   display: block;
   background-color: #363636;
   border-radius: 50px;
-  padding: 6px 15px;
   color: #FFF !important;
   text-decoration: none;
   border: 2px solid #363636;
-
+  width: fit-content;
 }
 
 .navbar a.accedi:hover {
@@ -112,7 +109,16 @@ font-size: 1.5rem;
 }
 
 .navbar .fa-search {
+  margin: 0;
   font-size: 1.5rem;
+}
+
+.navbar .search {
+  border: 1px solid #333;
+  border-radius: 0;
+  font-family: Arial, "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 /* Header */
